@@ -1,0 +1,107 @@
+table,h2{
+  position: relative;
+  height: 35%;
+  width: 35%;
+    border-collapse: collapse;
+    margin:auto;
+  margin-top: 130px;
+}
+
+body{
+  /* background-image: url('SAM_1304.JPG'); */
+  /* background-repeat: no-repeat; */
+  /* background-size: 100% 100%; */
+  /* background-size: cover; */
+
+}
+
+th,tr,td{
+ margin:auto;
+  position: relative;
+  border-collapse: collapse;
+  height: 35%;
+  width: 35%;
+  text-align:center;
+  color:white;
+}
+
+p{
+ color:blue; 
+}
+.div1 {
+  margin:auto;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-delay = 3;
+  animation-duration: 1s;
+}
+.div2 {
+  margin:auto;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  animation-name: example;
+  animation-delay : 1s;
+  animation-duration: 1s;
+}
+
+.efeito {
+  position: relative;
+  animation-name: example;
+  animation-duration: 2s;
+  
+  }
+
+.efeito2 {
+  position: relative;
+  animation-name: example;
+  animation-duration: 2s;
+  
+  }
+
+.efeito3 {
+  position: relative;
+  animation-name: example;
+  animation-duration: 1s;
+  
+  }
+
+.efeito4 {
+  position: relative;
+  animation-name: example;
+  animation-duration: 2s;
+  
+  }
+
+.efeito5 {
+  position: relative;
+  animation-duration: 2s;
+  
+  }
+
+  /* #imagem{ */
+    /* width: 400px; */
+    /* height: 300px; */
+    /* background-image: url(SAM_0496.JPG); */
+  /* } */
+
+  #container {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  background: yellow;
+}
+#animate {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: red;
+}
+@keyframes example {
+  from {left:0px;top:0px;}
+  to {left:0px;top:50px;}
+}
